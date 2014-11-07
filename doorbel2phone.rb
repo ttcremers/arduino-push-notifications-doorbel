@@ -11,8 +11,8 @@ while (true) do
   if ( bel != "" )
     Pushover.notification( message: 'DING DONG!!', 
                           title: "DoorBell",
-                         user: 'Ie9D09nl8JntKD0NfKFr1lmack3s2n',
-                         token: 'TnbTpcKeDsrgxWeDq6eZyUBqh8HQys')
+                         user: 'some-user',
+                         token: 'some-token')
   end
   sleep(1)
 end
